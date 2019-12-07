@@ -16,7 +16,7 @@ TODO: Integrate into Archetype as a Django command
 
 Created on Sat Dec  7 15:31:55 2019
 
-@author: peterstokes
+@author: pastokes
 """
 
 import json
