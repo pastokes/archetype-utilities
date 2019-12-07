@@ -3,6 +3,8 @@
 A rough script to create new Ontograph, Character, Allograph and Component
 records from a JSON file as input.
 
+Must be run from within a Django environment in an Archetype instance (e.g. using manage.py shell).
+
 TODO: The script is hacked together pretty quickly and needs a lot of tidying up
 TODO: It's very insensitive to problems in the JSON; at a minimum it should 
       allow for optional arguments to be ommitted.
