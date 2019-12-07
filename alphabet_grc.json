@@ -1,0 +1,154 @@
+{
+    "Ontographs": [
+        {
+            "name": "ALPHA_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "alpha",
+                    "unicode_point": "U+XXXX",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                            "name": "cursive",
+                            "Components": [
+                                {"name": "body"},
+                                {"name": "upper stem"},
+                                {"name": "lower stem"}
+
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "ALPHA",
+                    "unicode_point": "U+XXXX",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive",
+                            "Components": [
+                                {"name": "left diagonal"},
+                                {"name": "right diagonal"},
+                                {"name": "cross-stroke"}
+                            ]
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "BETA_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "beta",
+                    "unicode_point": "U+XXXX",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "BETA",
+                    "unicode_point": "U+XXXX",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "GAMMA_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "gamma",
+                    "unicode_point": "U+XXXX",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "GAMMA",
+                    "unicode_point": "U+XXXX",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive",
+                        "Components": [
+                            {"name": "shaft"},
+                            {"name": "top stroke"}
+                        ]
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "DELTA_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "delta",
+                    "unicode_point": "U+XXXX",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "DELTA",
+                    "unicode_point": "U+XXXX",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive",
+                        "Components": [
+                            {"name": "left diagonal"},
+                            {"name": "right diagonal"},
+                            {"name": "base stroke"}
+                        ]
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "EPSILON_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "epsilon",
+                    "unicode_point": "U+XXXX",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "EPSILON",
+                    "unicode_point": "U+XXXX",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        }
+    ]
+}
