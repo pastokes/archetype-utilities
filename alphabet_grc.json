@@ -5,8 +5,8 @@
             "type": "character",
             "Characters": [
                 {
-                    "name": "alpha",
-                    "unicode_point": "U+XXXX",
+                    "name": "alpha α",
+                    "unicode_point": "U+03B1",
                     "form": "minuscule",
                     "Allographs": [
                         {
@@ -21,8 +21,8 @@
                     ]
                 },
                 {
-                    "name": "ALPHA",
-                    "unicode_point": "U+XXXX",
+                    "name": "ALPHA Α",
+                    "unicode_point": "U+03B1",
                     "form": "majuscule",
                     "Allographs": [
                         {
@@ -42,8 +42,8 @@
             "type": "character",
             "Characters": [
                 {
-                    "name": "beta",
-                    "unicode_point": "U+XXXX",
+                    "name": "beta β",
+                    "unicode_point": "U+03B2",
                     "form": "minuscule",
                     "Allographs": [
                         {
@@ -52,8 +52,8 @@
                     ]
                 },
                 {
-                    "name": "BETA",
-                    "unicode_point": "U+XXXX",
+                    "name": "BETA Β",
+                    "unicode_point": "U+0392",
                     "form": "majuscule",
                     "Allographs": [
                         {
@@ -68,8 +68,8 @@
             "type": "character",
             "Characters": [
                 {
-                    "name": "gamma",
-                    "unicode_point": "U+XXXX",
+                    "name": "gamma γ",
+                    "unicode_point": "U+03B3",
                     "form": "minuscule",
                     "Allographs": [
                         {
@@ -78,8 +78,8 @@
                     ]
                 },
                 {
-                    "name": "GAMMA",
-                    "unicode_point": "U+XXXX",
+                    "name": "GAMMA Γ",
+                    "unicode_point": "U+0393",
                     "form": "majuscule",
                     "Allographs": [
                         {
@@ -98,8 +98,8 @@
             "type": "character",
             "Characters": [
                 {
-                    "name": "delta",
-                    "unicode_point": "U+XXXX",
+                    "name": "delta δ",
+                    "unicode_point": "U+03B4",
                     "form": "minuscule",
                     "Allographs": [
                         {
@@ -108,8 +108,8 @@
                     ]
                 },
                 {
-                    "name": "DELTA",
-                    "unicode_point": "U+XXXX",
+                    "name": "DELTA Δ",
+                    "unicode_point": "U+0394",
                     "form": "majuscule",
                     "Allographs": [
                         {
@@ -129,8 +129,8 @@
             "type": "character",
             "Characters": [
                 {
-                    "name": "epsilon",
-                    "unicode_point": "U+XXXX",
+                    "name": "epsilon ε",
+                    "unicode_point": "U+03B5",
                     "form": "minuscule",
                     "Allographs": [
                         {
@@ -139,8 +139,506 @@
                     ]
                 },
                 {
-                    "name": "EPSILON",
-                    "unicode_point": "U+XXXX",
+                    "name": "EPSILON Ε",
+                    "unicode_point": "U+0395",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "ZETA_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "zeta ζ",
+                    "unicode_point": "U+03B6",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "ZETA Ζ",
+                    "unicode_point": "U+0396",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "ETA_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "eta η",
+                    "unicode_point": "U+03B7",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "ETA Η",
+                    "unicode_point": "U+0397",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "THETA_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "theta θ",
+                    "unicode_point": "U+03B8",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "THETA Θ",
+                    "unicode_point": "U+0398",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "IOTA_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "iota ι",
+                    "unicode_point": "U+03B9",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "IOTA Ι",
+                    "unicode_point": "U+0399",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+                {
+            "name": "KAPPA_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "kappa κ",
+                    "unicode_point": "U+03BA",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "KAPPA Κ",
+                    "unicode_point": "U+039A",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "LAMBDA_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "lambda λ",
+                    "unicode_point": "U+03BB",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "LAMBDA Λ",
+                    "unicode_point": "U+039B",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "MU_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "mu μ",
+                    "unicode_point": "U+03BC",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "MU Μ",
+                    "unicode_point": "U+039C",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "NU_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "nu ν",
+                    "unicode_point": "U+03BD",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "NU Ν",
+                    "unicode_point": "U+039D",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "XSI_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "xsi ξ",
+                    "unicode_point": "U+03BE",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "XI Ξ",
+                    "unicode_point": "U+039E",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "OMICRON_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "omicron ο",
+                    "unicode_point": "U+03BF",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "OMICRON Ο",
+                    "unicode_point": "U+039F",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "PI_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "pi π",
+                    "unicode_point": "U+03C0",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "PI Π",
+                    "unicode_point": "U+03A0",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "RHO_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "rho ρ",
+                    "unicode_point": "U+03C1",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "RHO Ρ",
+                    "unicode_point": "U+03A1",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "SIGMA_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "sigma σ",
+                    "unicode_point": "U+03C3",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive initial"
+                        },
+                        {
+                        "name": "cursive final"
+                        }
+
+                    ]
+                },
+                {
+                    "name": "SIGMA Σ",
+                    "unicode_point": "U+03A3",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "TAU_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "tau τ",
+                    "unicode_point": "U+03C4",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "TAU Τ",
+                    "unicode_point": "U+03A4",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "UPSILON_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "upsilon υ",
+                    "unicode_point": "U+03C5",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "UPSILON Υ",
+                    "unicode_point": "U+03A5",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "PHI_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "phi φ",
+                    "unicode_point": "U+03C6",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "PHI Φ",
+                    "unicode_point": "U+03A6",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },,
+        {
+            "name": "CHI_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "chi χ",
+                    "unicode_point": "U+03C7",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "CHI Χ",
+                    "unicode_point": "U+03A7",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "PSI_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "psi ψ",
+                    "unicode_point": "U+03C8",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "PSI Ψ",
+                    "unicode_point": "U+03A8",
+                    "form": "majuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                }
+             ]
+        },
+        {
+            "name": "OMEGA_ont",
+            "type": "character",
+            "Characters": [
+                {
+                    "name": "omega ω",
+                    "unicode_point": "U+03C9",
+                    "form": "minuscule",
+                    "Allographs": [
+                        {
+                        "name": "cursive"
+                        }
+                    ]
+                },
+                {
+                    "name": "OMEGA Ω",
+                    "unicode_point": "U+03A9",
                     "form": "majuscule",
                     "Allographs": [
                         {
