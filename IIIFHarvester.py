@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Basic script to harvest images from a IIIF manifest, allowing for a few common
