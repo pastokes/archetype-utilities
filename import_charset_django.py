@@ -16,18 +16,27 @@ TODO: Integrate into Archetype as a Django command
 
 Created on Sat Dec  7 15:31:55 2019
 
-@author: pastokes
+@author: peterstokes
 """
 
 import json
+import requests
 from digipal.models import *
 
 fname = "alphabet_grc.json"
 path = "digipal_project/customisations/commands/"
-DEF_ENCODING = "utf8"
+json_url = "https://raw.githubusercontent.com/pastokes/archetype-utilities/master/alphabet_grc.json"
+ENCODING = "utf-8"
+LOCAL_FILE = True
 
-with open(path+fname, "r") as infile:
-    alpha = json.loads(infile.read())
+if LOCAL_FILE:
+    with open(path+fname, "r") as infile:
+        alpha = json.loads(infile.read().decode(ENCODING))
+else:
+    conn = requests.get(json_url).encoding(ENCODING)
+    alpha = conn.json()
+    
+
 
 
 # TODO: Need to check for missing attributes in JSON file
@@ -37,7 +46,7 @@ for o in alpha["Ontographs"]:
         # TODO: The logic here is backwards, though: the except block is in fact
         # the normal, expected behaviour.
         new_ont = Ontograph.objects.get(name=o["name"])
-        print("Warning: Ontograph " + o["name"] + " already exists")
+        print("Warning: Ontograph " + o["name"].encode(ENCODING) + " already exists")
         pass
     except Ontograph.DoesNotExist:
         new_ont = Ontograph(name=o["name"])
@@ -49,7 +58,7 @@ for o in alpha["Ontographs"]:
     for c in o["Characters"]:
         try:
             new_c = Character.objects.get(name=c["name"])
-            print("Warning: Character " + c["name"] + " already exists")
+            print("Warning: Character " + c["name"].encode(ENCODING) + " already exists")
         except Character.DoesNotExist:
             new_c = Character(name=c["name"])
             new_c.form, _ = CharacterForm.objects.get_or_create(name=c["form"])
@@ -62,7 +71,7 @@ for o in alpha["Ontographs"]:
             #new_a = get_or_create(Allograph, a["name"])
             try:
                 new_a = Allograph.objects.get(name=a["name"], character=new_c)
-                print("Warning: Allograph " + a["name"] + new_c + " already exists")
+                print("Warning: Allograph " + a["name"].encode(ENCODING) + " " + new_c.encode(ENCODING) + " already exists")
             except Allograph.DoesNotExist:
                 new_a = Allograph(name=a["name"])
                 new_a.character = new_c
@@ -74,6 +83,6 @@ for o in alpha["Ontographs"]:
                     new_comp, _ = Component.objects.get_or_create(name=comp["name"])
                     AllographComponent.objects.get_or_create(allograph=new_a, component=new_comp)
             except KeyError:
-                print("Warning: No Components found for Allograph " + a["name"] + new_c)
+                print("Warning: No Components found for Allograph " + a["name"].encode(ENCODING) + new_c.name.encode(ENCODING))
                 pass
             
